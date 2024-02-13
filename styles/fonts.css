@@ -1,0 +1,20 @@
+@font-face {
+  font-family: roboto-regular;
+  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  src: url(/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-family: opensans;
+}
+
+h1 {
+  font-family: Roboto-regular, verdana, arial;
+}
+
+p {
+  font-family: "opensans","lucida console", "courier new";
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+}
