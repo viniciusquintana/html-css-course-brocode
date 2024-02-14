@@ -1,0 +1,29 @@
+h1::first-letter {
+  font-size: 2em;
+  font-style: italic;
+}
+
+p::first-line {
+  background-color: rgb(250, 250, 162);
+}
+
+p::selection{
+  color: hsl(120, 100%, 50%);
+  background-color: rgb(41, 41, 41);
+}
+
+#apple::after{
+  content: "🍎";
+}
+#orange::after {
+  content: "🍊";
+}
+#banana::after {
+  content: "🍌";
+}
+
+#fruit li::marker {
+  content: "✔";
+  color: hsl(120, 100%, 50%);
+  font-size: 1.2em;
+}
